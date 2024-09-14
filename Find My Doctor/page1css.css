@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://media.sproutsocial.com/uploads/2023/07/healthcare-hospitals-guide-FA@2x-1-1024x578.png");
+}
+#ublock{
+    text-align: center;
+}
+#contentBlocks{
+    background-color: rgb(211, 214, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+table{
+    background-color: lavender;
+
+}
+td{
+    padding: 10px;
+}
+#contentBlock{
+    text-align: center;
+}
+ul{
+    
+    justify-content: left;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: beige;
+    color:black;
+}
+option:hover{
+    background: yellow;
+}

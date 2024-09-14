@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family:   sans-serif;
+}
+body{
+    background: url("https://www.jsshospital.in/blog/wp-content/uploads/2021/04/pain.jpeg") no-repeat;
+    background-size:cover ;
+}
+.log{
+    width: 350;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    /* background-color: rgb(54, 42, 165); */
+    color: aliceblue;
+}
+.log1 label{
+    font-size: larger;
+    margin: 15px;
+}
+.log1 input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(243, 248, 181);
+}
+.log1 button{
+    display: inline;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.log1 label{
+    color:white;
+    font-size: 20px;
+}
+label{
+    color:rgb(12, 232, 144);
+    font-size: 17px;
+}
+.cbox input{
+    font-size: 8px;
+    padding: 7.5px 5px;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(243, 248, 181);
+}
+p{
+    font-size: 20px;
+    color:white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}

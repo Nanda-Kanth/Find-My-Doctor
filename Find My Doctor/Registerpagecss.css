@@ -1,0 +1,60 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family:   sans-serif;
+}
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-illustration-form-registration-appointment-medical-life-background-design-image_953512.jpg  ");
+    background-size:cover ;
+}
+.log{
+    width: 350;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    /* background-color: rgb(54, 42, 165); */
+    color: rgb(18, 131, 231);
+}
+.log1 input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(155, 153, 142);
+}
+.log1 button{
+    display: inline;
+    font-size: medium;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 40%;
+    border-radius: 5px;
+    border: 0;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.log1 label{
+    color:blueviolet;
+    font-size: 20px;
+}
+label{
+    margin:2px;
+    color:rgb(21, 197, 130);
+    font-size: 17px;
+}
+p{
+    font-size: 20px;
+    color:blueviolet;
+    font-size: 20px;
+}

@@ -1,0 +1,1490 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doctor Recomendation System</title>
+  <link rel="stylesheet" href="page1css.css">
+  <style>
+    .contentBlock {
+      display: none;
+    }
+  </style>
+  <script>
+    let dr=document.getElementsByClassName("dr");
+    dr.addEventListener("click",console.log(dr.innerText));
+  </script>
+</head>
+<body>
+    <div id="ublock">
+  <h1>Choose an Option</h1>
+  <select id="options">
+    <option value="option1">Option 1</option>
+    <option value="option2">Hair</option>
+    <option value="option3">Skin</option>
+    <option value="head">Head(Brain)</option>
+    <option value="eye">Eyes</option>
+    <option value="ent">Ear</option>
+    <option value="ent">Nose</option>
+    <option value="ent">Throat</option>
+    <option value="tooth">Tooth</option>
+    <option value="neck">Neck</option>
+    <option value="shoulder">Shoulders(joint)</option>
+    <option value="shoulder">Arms(joint)</option>
+    <option value="shoulder">Elbows(joint)</option>
+    <option value="hand">Hand</option>
+    <option value="chest">Chest</option>
+    <option value="abdomen">Abdomen</option>
+    <option value="back">Back</option>
+    <option value="hip">Hips</option>
+    <option value="leg">Legs</option>
+    <option value="leg">Knees</option>
+    <option value="feet">Feet</option>
+    <option value="feet">Toes</option>
+    <option value=""></option>
+    <option value=""></option>
+
+</select>
+</div>
+
+  <div id="contentBlocks">
+    
+    <div id="option1" class="contentBlock">
+        <table border="1">
+        <tr>
+            <th>Sno</th>
+            <th>Name</th>
+            <th>ph.no</th>
+            <th>Hospital</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>raju</td>
+            <td>8887968u5</td>
+            <td>HHHHHH</td>
+        </tr>
+      </table>
+    </div>
+   
+    <div id="option2" class="contentBlock">
+      <h2>Hair</h2>
+      <h2>Common Causes of Hair Fall</h2>
+
+  <ul>
+    <li><strong>Genetics:</strong> Family history and genetic factors play a significant role.</li>
+    <li><strong>Hormonal Changes:</strong> Imbalances in hormones, such as during pregnancy or menopause.</li>
+    <li><strong>Nutritional Deficiencies:</strong> Lack of essential nutrients like iron, vitamins, and proteins.</li>
+    <li><strong>Stress:</strong> Emotional and physical stress can contribute to hair loss.</li>
+    <li><strong>Medical Conditions:</strong> Certain illnesses and medical treatments can lead to hair fall.</li>
+    <li><strong>Poor Hair Care:</strong> Excessive use of harsh chemicals or heat on the hair.</li>
+    <li><strong>Aging:</strong> Natural aging process can cause hair thinning and loss.</li>
+    <li><strong>Autoimmune Diseases:</strong> Conditions where the immune system attacks hair follicles.</li>
+    <li><strong>Environmental Factors:</strong> Exposure to pollution, UV rays, and other environmental pollutants.</li>
+  </ul>
+      <table border="1">
+        <thead>
+            <tr>
+                <th>Doctor Name</th>
+                <th>Hospital Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td>Dr.Bharathi</td>
+                    <td>Kolors Healthcare</td>
+                    <td>9014136666</td>
+                    <input type="hidden" name="doctor_name" value="Dr.Bharathi">
+                    <input type="hidden" name="hospital_name" value="Kolors Healthcare">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                  <td>Dr.Anuradha</td>
+                    <td>Anoos Hair Clinic</td>
+                    <td>93331 63333</td>
+                    <input type="hidden" name="doctor_name" value="Dr. Anuradha">
+                    <input type="hidden" name="hospital_name" value="Anoos Hair Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                  <td>Dr.Swapna</td>
+                    <td>Swapna's Hair Clinic</td>
+                    <td>094909 03999</td>
+                    <input type="hidden" name="doctor_name" value="Dr.Swapna">
+                    <input type="hidden" name="hospital_name" value="Swapna's Hair Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+        </tbody>
+    </table>
+    
+    </div>
+    
+    <div id="option3" class="contentBlock">
+      <h1>Skin</h1>
+      <h2>Some Major Causes Of Skin Problem</h2>
+      <ul>
+        <li>
+          <strong>Allergies</strong>
+          <ul>
+            <li>Pollen</li>
+            <li>Dust mites</li>
+            <li>Pet dander</li>
+            <li>Certain foods</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Autoimmune diseases</strong>
+          <ul>
+            <li>Psoriasis</li>
+            <li>Lupus</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Bacterial infections</strong>
+          <ul>
+            <li>Acne</li>
+            <li>Impetigo</li>
+            <li>Folliculitis</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Fungal infections</strong>
+          <ul>
+            <li>Ringworm</li>
+            <li>Athlete's foot</li>
+            <li>Candidiasis</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Parasitic infections</strong>
+          <ul>
+            <li>Scabies</li>
+            <li>Lice</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Viruses</strong>
+          <ul>
+            <li>Chickenpox</li>
+            <li>Shingles</li>
+            <li>Warts</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Genetics</strong>
+          <ul>
+            <li>Eczema</li>
+            <li>Psoriasis</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Medications</strong>
+          <ul>
+            <li>Antibiotics</li>
+            <li>Certain antidepressants</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Dry skin</strong>
+          <ul>
+            <li>Cold weather</li>
+            <li>Low humidity</li>
+            <li>Certain soaps and detergents</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Oily skin</strong>
+          <ul>
+            <li>Overproduction of sebum</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Hormones</strong>
+          <ul>
+            <li>Acne</li>
+            <li>Rosacea</li>
+            <li>Melasma</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Stress</strong>
+          <ul>
+            <li>Can trigger or worsen some skin problems, such as eczema and psoriasis</li>
+          </ul>
+        </li>
+        <li>
+          <strong>Lifestyle factors</strong>
+          <ul>
+            <li>Smoking</li>
+            <li>Excessive sun exposure</li>
+            <li>Poor diet</li>
+          </ul>
+        </li>
+      </ul>
+      
+      <table border="1">
+        <thead>
+            <tr>
+                <th>Doctor's Name</th>
+                <th>Hospital Name</th>
+                <th>Type of Doctor</th>
+                <th>Phone Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. B. Chandana</td>
+                    <td>Chandana Skin Clinic</td>
+                    <td>Dermatologist & Cosmetologist</td>
+                    <td>063034 53939</td>
+                    <input type="hidden" name="doctor_name" value="Dr. B. Chandana">
+                    <input type="hidden" name="hospital_name" value="Chandana Skin Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. Leelavathi</td>
+                    <td>Leelavathi Advanced Skin & Laser Centre</td>
+                    <td>Dermatologist</td>
+                    <td>093929 30422</td>
+                    <input type="hidden" name="doctor_name" value="Dr. Leelavathi">
+                    <input type="hidden" name="hospital_name" value="Leelavathi Advanced Skin & Laser Centre">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. P. Skin Perfect</td>
+                    <td>Skin Perfect Clinic</td>
+                    <td>Dermatologist</td>
+                    <td>094909 03999</td>
+                    <input type="hidden" name="doctor_name" value="Dr. P. Skin Perfect">
+                    <input type="hidden" name="hospital_name" value="Skin Perfect Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. Ramya</td>
+                    <td>Ramya Skin & Laser Clinic</td>
+                    <td>Dermatologist</td>
+                    <td>098765 43210</td>
+                    <input type="hidden" name="doctor_name" value="Dr. Ramya">
+                    <input type="hidden" name="hospital_name" value="Ramya Skin & Laser Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. Srinivasa Rao</td>
+                    <td>Srinivasa Rao Skin Clinic</td>
+                    <td>Dermatologist</td>
+                    <td>087654 32109</td>
+                    <input type="hidden" name="doctor_name" value="Dr. Srinivasa Rao">
+                    <input type="hidden" name="hospital_name" value="Srinivasa Rao Skin Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+        </tbody>
+    </table> 
+    </div>
+
+    <div id="head" class="contentBlock">
+      <h2>Head pain </h2>
+      <h2>Causes of head pain</h2>
+    <ul>
+        <li><b>Headaches</b>:Headaches are the most common type of pain, and they can be caused by a variety of factors, including stress, dehydration, lack of sleep, and caffeine withdrawal.</li>
+        <li><b>Migraines</b>:Migraines are a type of headache that is often accompanied by nausea, vomiting, and sensitivity to light and sound.</li>
+        <li><b>Sinus headaches:</b>Sinus headaches are caused by inflammation of the sinus cavities, which are located behind the cheekbones, nose, and forehead.</li>
+        <li><b>Cluster headaches:</b>Cluster headaches are rare, but very severe headaches that  can last for weeks or months at a time, followed by periods of remission. The cause of cluster headaches is unknown.</li>
+        <li><b>Medication overuse headache:</b>Medication overuse headaches can occur when you take too much over-the-counter pain medication.This headache can be difficult to treat, because they require you to stop taking the medication that is causing them.</li>      
+        <h2>Other causes of head pain include:</h2>
+        <li><b>Head injury:</b>A head injury can cause a concussion, which is a type of brain injury. Concussions can cause a variety of symptoms, including headache, dizziness, nausea, and vomiting.</li>
+        <li><b>Caffeine withdrawal:</b>Caffeine withdrawal can cause headache, irritability, and fatigue.</li>
+        <li><b>Dehydration:</b>Dehydration can cause headache, fatigue, and dizziness.</li>
+        <li><b>Blood pressure:</b>High blood pressure can cause headache, as well as other symptoms such as dizziness, blurred vision, and chest pain.</li>
+        <li><b>Infection:</b>Infections such as meningitis and encephalitis can cause headache, as well as other symptoms such as fever, stiff neck, and confusion.</li>
+        <li><b>Brain tumor:</b>Brain tumors can cause headache, as well as other symptoms such as seizures, vision problems, and weakness or numbness in the arms or legs.</li>
+    </ul>
+    <h3>Here are some details of doctor you can consult for your head pain</h3>
+    <table border="1">
+      <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Ph.no</th>
+          <th>Hospital</th>
+          <th>Action</th>
+      </tr>
+      <tr>
+          <td> Dr. Ch Pavan Kumar</td>
+          <td>Neurologist</td>
+          <td>94900 56155</td>
+          <td>Pavan Neuro center</td>
+          <td>
+              <form action="oppage.php" method="post">
+                  <input type="hidden" name="doctor_name" value="Dr. Ch Pavan Kumar">
+                  <input type="hidden" name="hospital_name" value="Pavan Neuro center">
+                  <input type="submit" value="Book Appointment">
+              </form>
+          </td>
+      </tr>
+      <tr>
+          <td> Dr. Laxman Rao</td>
+          <td>Neurologist</td>
+          <td>98855 77722</td>
+          <td>Laxman Neuro Centre</td>
+          <td>
+              <form action="oppage.php" method="post">
+                  <input type="hidden" name="doctor_name" value="Dr. Laxman Rao">
+                  <input type="hidden" name="hospital_name" value="Laxman Neuro Centre">
+                  <input type="submit" value="Book Appointment">
+              </form>
+          </td>
+      </tr>
+      <tr>
+          <td> Dr.S.V.Sundar Rao</td>
+          <td>Neurosurgeon</td>
+          <td>95813 33363</td>
+          <td>Brinda Neuro Centre</td>
+          <td>
+              <form action="oppage.php" method="post">
+                  <input type="hidden" name="doctor_name" value="Dr.S.V.Sundar Rao">
+                  <input type="hidden" name="hospital_name" value="Brinda Neuro Centre">
+                  <input type="submit" value="Book Appointment">
+              </form>
+          </td>
+      </tr>
+      <tr>
+          <td> Dr.Neeraja</td>
+          <td>Neurologist</td>
+          <td>70328 40598</td>
+          <td>Neeraja Neuro Care</td>
+          <td>
+              <form action="oppage.php" method="post">
+                  <input type="hidden" name="doctor_name" value="Dr.Neeraja">
+                  <input type="hidden" name="hospital_name" value="Neeraja Neuro Care">
+                  <input type="submit" value="Book Appointment">
+              </form>
+          </td>
+      </tr>
+      <tr>
+          <td> Dr.Hemanth Vupputuri</td>
+          <td>Neurosurgeon</td>
+          <td>86322 10123</td>
+          <td>Amrutha Hospital</td>
+          <td>
+              <form action="oppage.php" method="post">
+                  <input type="hidden" name="doctor_name" value="Dr.Hemanth Vupputuri">
+                  <input type="hidden" name="hospital_name" value="Amrutha Hospital">
+                  <input type="submit" value="Book Appointment">
+              </form>
+          </td>
+      </tr>
+  </table>
+  
+  
+    
+        <p><b>Note:</b>Other problems related to head other than above mentioned can consult to same doctors given in table</p>
+      </div>
+    
+      <div id="eye" class="contentBlock">
+        <h2>Eye Pain</h2>
+        <h2>Causes of eye pain</h2>
+        <ul>
+            <li><b>Dry eyes:</b>Dry eyes are one of the most common causes of eye pain.They can be caused by a number of factors, including dry air, wind, contact lens wear, and certain medications. Symptoms of dry eyes include pain, burning, itching, and redness.</li>
+            <li><b>Eyestrain:</b>It can be caused by focusing on something for a long period of time, such as when reading, working on a computer, or driving. Symptoms of eyestrain include pain, blurred vision, and headache.</li>
+            <li><b>Conjunctivitis:</b>Conjunctivitis, also known as pink eye, is an inflammation of the conjunctiva, the thin membrane that lines the eyelids and covers the whites of the eyes. It can be caused by a bacterial or viral infection, allergies, or irritants. Symptoms of conjunctivitis include pain, redness, itching, and discharge from the eyes.</li>
+            <li><b>Corneal abrasion:</b>A corneal abrasion is a scratch on the cornea, the clear front part of the eye. It can be caused by a fingernail, a piece of dust, or a contact lens. Symptoms of a corneal abrasion include pain, redness, and sensitivity to light.</li>
+            <li><b>Uveitis:</b>Uveitis is an inflammation of the uvea, the middle layer of the eye. It can be caused by infection, autoimmune disease, or injury. Symptoms of uveitis include pain, redness, sensitivity to light, and blurred vision.</li>
+            <li><b>Glaucoma:</b>Glaucoma is a group of eye diseases that damage the optic nerve, the nerve that carries visual information from the eye to the brain. Glaucoma is often caused by increased pressure inside the eye. Symptoms of glaucoma include pain, blurred vision, and loss of peripheral vision.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your eye pain</h3>
+        <table border="1">
+              <tr>
+                  <th>Sno</th>
+                  <th>Name</th>
+                  <th>Type</th>
+                  <th>Ph.no</th>
+                  <th>Hospital</th>
+                  <th>Action</th>
+              </tr>
+              <tr>
+                <form action="oppage.php" method="post">
+
+                  <td>1</td>
+                  <td> Dr. Sudarshani</td>
+                  <td>Ophthalmologist</td>
+                  <td>08632220028</td>
+                  <td>Sudarsani Eye Hospital</td>
+                  <td>
+                      <input type="hidden" name="doctor_name" value="Dr. Sudarshani">
+                      <input type="hidden" name="hospital_name" value="Sudarsani Eye Hospital">
+                      <input type="submit" value="Book Appointment">
+                  </td>
+                  </form>
+              </tr>
+              <tr>          <form action="oppage.php" method="post">
+                  <td>2</td>
+                  <td> Dr. Agarwal</td>
+                  <td>Ophthalmologist</td>
+                  <td>09594924202</td>
+                  <td>Dr. Agarwals Eye Hospital</td>
+                  <td>
+                      <input type="hidden" name="doctor_name" value="Dr. Agarwal">
+                      <input type="hidden" name="hospital_name" value="Dr. Agarwals Eye Hospital">
+                      <input type="submit" value="Book Appointment">
+                  </td>
+                  </form>
+              </tr>
+              <tr>          <form action="oppage.php" method="post">
+                  <td>3</td>
+                  <td> Dr. Vasan</td>
+                  <td>Ophthalmologist</td>
+                  <td>08932330028</td>
+                  <td>Vasan Eye Care Centre</td>
+                  <td>
+                      <input type="hidden" name="doctor_name" value="Dr. Vasan">
+                      <input type="hidden" name="hospital_name" value="Vasan Eye Care Centre">
+                      <input type="submit" value="Book Appointment">
+                  </td></form>
+              </tr>
+              <tr>
+                <form action="oppage.php" method="post">
+                  <td>4</td>
+                  <td> Dr. SriKanth</td>
+                  <td>Ophthalmologist</td>
+                  <td>08632440028</td>
+                  <td>SriKanth Eye Clinic</td>
+                  <td>
+                      <input type="hidden" name="doctor_name" value="Dr. SriKanth">
+                      <input type="hidden" name="hospital_name" value="SriKanth Eye Clinic">
+                      <input type="submit" value="Book Appointment">
+                  </td></form>
+              </tr>
+              <tr>          <form action="oppage.php" method="post">
+                  <td>5</td>
+                  <td> Dr. Murthy</td>
+                  <td>Ophthalmologist</td>
+                  <td>08632550028</td>
+                  <td>Murthy Eye Clinic</td>
+                  <td>
+                      <input type="hidden" name="doctor_name" value="Dr. Murthy">
+                      <input type="hidden" name="hospital_name" value="Murthy Eye Clinic">
+                      <input type="submit" value="Book Appointment">
+                  </td></form>
+              </tr>
+      </table>
+      
+        <p><b>Note:</b>Other problems related to eye other than above mentioned can consult to same doctors given in table</p>
+      </div>
+      <div id="ent" class="contentBlock">
+        <h2>Ear Pain</h2>
+        <h2>Causes of ear pain</h2>
+        <ul>
+            <li><b>Ear infection:</b>Ear infections are most common in children, but they can also occur in adults. They are caused by bacteria or viruses that get into the middle ear.</li>
+            <li><b>Swimmer's ear:</b>Swimmer's ear is an inflammation of the outer ear canal that is caused by water getting trapped in the ear.</li>
+            <li><b>Earwax buildup:</b>Earwax is a natural substance that helps protect your ears from dirt and dust. However, too much earwax can build up and block the ear canal, which can cause pain.</li>
+            <li><b>Barotrauma:</b>Barotrauma is an ear injury that is caused by a sudden change in air pressure. This can happen when you fly on an airplane, scuba dive, or drive up a mountain.</li>
+            <li><b>Temporal mandibular joint (TMJ) disorder:</b> TMJ disorder is a condition that affects the joint that connects your jawbone to your skull. It can cause pain in the ear, jaw, and face.</li>
+         </ul>
+         <h3>Here are some details of doctor you can consult for your ear pain</h3>
+         <table border="1">
+          <tr>
+              <th>Sno</th>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Ph.no</th>
+              <th>Hospital</th>
+              <th>Action</th>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td>1</td>
+                  <td> Dr.Sandeep VVK</td>
+                  <td>ENT Specialist</td>
+                  <td>99850 50505</td>
+                  <td>Sri Vijaya ENT</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Sandeep VVK">
+                  <input type="hidden" name="hospital_name" value="Sri Vijaya ENT">
+                  <input type="hidden" name="action" value="Book Appointment">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td>2</td>
+                  <td> Dr.Mounics Chandra</td>
+                  <td>ophthalmologist</td>
+                  <td>095949 24202</td>
+                  <td>Sri Vijaya ENT</td>
+                  <input type="hidden" name="doctor_name" value="Dr.Mounics Chandra">
+                  <input type="hidden" name="hospital_name" value="Sri Vijaya ENT">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td>3</td>
+                  <td> Dr.K.L.S Prasad</td>
+                  <td>ENT Specialist</td>
+                  <td>9963357890</td>
+                  <td>Dr. K.L.S. Prasad Clinic</td>
+                  <input type="hidden" name="doctor_name" value="Dr.K.L.S Prasad">
+                  <input type="hidden" name="hospital_name" value="Dr. K.L.S. Prasad Clinic">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td>4</td>
+                  <td> Dr.Garlapati NandaKishore</td>
+                  <td>ENT specialistt</td>
+                  <td>863 232 4444</td>
+                  <td>Guntur Ear, Nose, Throat Clinic</td>
+                  <input type="hidden" name="doctor_name" value="Dr.Garlapati NandaKishore">
+                  <input type="hidden" name="hospital_name" value="Guntur Ear, Nose, Throat Clinic">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td>5</td>
+                  <td> Dr.Rajesh Metla</td>
+                  <td>ENT Specialist and</td>
+                  <td>93900 83469</td>
+                  <td>Metla's ENT Care</td>
+                  <input type="hidden" name="doctor_name" value="Dr.Rajesh Metla">
+                  <input type="hidden" name="hospital_name" value="Metla's ENT Care">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+      </table>
+      
+      
+        <p><b>Note:</b>Other problems related to ear other than above mentioned can consult to same doctors given in table</p>
+      </div>
+    
+      <div id="tooth" class="contentBlock">
+        <h2>Tooth Pain</h2>
+        <h2>Causes of tooth pain</h2>
+        <ul>
+            <li><b>Cavities:</b>They are caused by bacteria that eat away at the enamel of your teeth, creating holes. Cavities can be painful, especially when you eat or drink something hot, cold, or sweet.</li>
+            <li><b>Abscessed tooth:</b>An abscessed tooth is a tooth that is infected. The infection can cause pain, swelling, and redness in the gums. In some cases, the infection can spread to other parts of the body.</li>
+            <li><b>Cracked tooth:</b>A cracked tooth can be painful when you chew or bite down. The crack may be visible to the naked eye, or it may be too small to see.</li>
+            <li><b>A damaged dental restoration:</b>A filling, crown, or other dental restoration can become damaged over time. This can cause pain, especially when you chew or bite down.</li>
+            <li><b>Teeth grinding or clenching (bruxism):</b>Bruxism is a condition that causes people to grind or clench their teeth together, usually while they are sleeping. Bruxism can cause tooth pain, jaw pain, and headaches.</li>
+            <li><b>Gum disease:</b>Gum disease is an infection of the gums. It can cause pain, bleeding, and swelling in the gums. In severe cases, gum disease can lead to tooth loss.</li>
+            <h2>Other causes of tooth pain can include:</h2>
+            <li><b>Sinus infections:</b>Sinus infections can sometimes cause pain in the upper teeth.</li>
+            <li><b>Temporomandibular joint (TMJ) disorder:</b>TMJ disorder is a condition that affects the joint that connects your jawbone to your skull. It can cause pain in the jaw, ear, and teeth.</li>
+            <li><b>Impacted wisdom teeth:</b>Wisdom teeth are the four molars that grow in the back of your mouth, usually in your late teens or early twenties. Sometimes, wisdom teeth do not have enough room to grow in properly and become impacted. This can cause pain, swelling, and infection.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your tooth pain</h3>
+        <table border="1">
+          <tr>
+              <th>Doctor Name</th>
+              <th>Hospital Name</th>
+              <th>Type of Doctor</th>
+              <th>Hospital Phone Number</th>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td> Dr. Pradeep Kumar</td>
+                  <td>Dent Q</td>
+                  <td>Orthodontist & Smile Designer</td>
+                  <td>+91 88869 29999</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Pradeep Kumar">
+                  <input type="hidden" name="hospital_name" value="Dent Q">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td> Dr. Praneeth Kumar</td>
+                  <td>Kothamas Dental Care</td>
+                  <td>Orthodontist & Smile Designer</td>
+                  <td>+91 88869 29999</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Praneeth Kumar">
+                  <input type="hidden" name="hospital_name" value="Kothamas Dental Care">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td> Dr. Kiran Kumar</td>
+                  <td>Sri Kiran Dental Hospital JNR Memorial</td>
+                  <td>Dentist</td>
+                  <td>+91 99898 44444</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Kiran Kumar">
+                  <input type="hidden" name="hospital_name" value="Sri Kiran Dental Hospital JNR Memorial">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td> Dr. Sowmya</td>
+                  <td>Sowmya Multispeciality Dental Clinic</td>
+                  <td>Dentist</td>
+                  <td>+91 98765 43210</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Sowmya">
+                  <input type="hidden" name="hospital_name" value="Sowmya Multispeciality Dental Clinic">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td> Dr. Confydentz</td>
+                  <td>Confydentz Dental Hospital - Best Dental Clinic in Guntur (Dental Implants & Maxillofacial center)</td>
+                  <td>Dentist</td>
+                  <td>+91 99633 57890</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Confydentz">
+                  <input type="hidden" name="hospital_name" value="Confydentz Dental Hospital - Best Dental Clinic in Guntur (Dental Implants & Maxillofacial center)">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+          <tr>
+              <form action="oppage.php" method="post">
+                  <td> Dr. Guntur Dental</td>
+                  <td>Guntur Dental Speciality Hospital</td>
+                  <td>Dentist</td>
+                  <td>+91 863 2345678</td>
+                  <input type="hidden" name="doctor_name" value="Dr. Guntur Dental">
+                  <input type="hidden" name="hospital_name" value="Guntur Dental Speciality Hospital">
+                  <td><input type="submit" value="Book Appointment"></td>
+              </form>
+          </tr>
+      </table>
+      
+                <p><b>Note:</b>Other problems related to tooth other than above mentioned can consult to same doctors given in table</p>        
+      </div>
+
+      <div id="neck" class="contentBlock">
+        <h2>Neck Pain</h2>
+         <h2>Causes of neck pain</h2>
+        <ul>
+            <li><b>Muscle strain:</b>It can be caused by overuse of the neck muscles, such as from sitting at a desk for long periods of time or holding your head in an awkward position.</li>
+            <li><b>Whiplash:</b>Whiplash is a neck injury that is caused by a sudden back-and-forth movement of the head. It is commonly caused by car accidents, but it can also be caused by other activities, such as sports injuries or falls.</li>
+            <li><b>Cervical spondylosis:</b>Cervical spondylosis is a type of arthritis that affects the neck joints. It can cause pain, stiffness, and muscle weakness in the neck.</li>
+            <li><b>Herniated disc:</b>A herniated disc is a condition that occurs when one of the discs in the spine bulges or ruptures and presses on a nerve. It can cause pain, numbness, and weakness in the neck and arms.</li>
+            <li><b>Meningitis:</b>Meningitis is an inflammation of the meninges, which are the membranes that surround the brain and spinal cord. It can cause a variety of symptoms, including neck pain, headache, fever, and stiff neck.</li>
+            <h2>Other causes of neck pain can include:</h2>
+            <li><b>Pinched nerve:</b>A pinched nerve can occur when a nerve is compressed or irritated. It can cause pain, numbness, and weakness in the neck and arms.</li>
+            <li><b>Fibromyalgia:</b>Fibromyalgia is a chronic pain disorder that can cause pain throughout the body, including the neck.
+Infection: Infections, such as strep throat or a tooth infection, can sometimes cause neck pain.</li>
+            <li><b>Tumor:</b>Tumors in the neck, such as thyroid tumors or lymph node tumors, can also cause neck pain.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your neck pain</h3>
+        <table border="1">
+          <table border="1">
+            <tr>
+                <th>Doctor Name</th>
+                <th>Hospital Name</th>
+                <th>Type of Doctor</th>
+                <th>Hospital Phone Number</th>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. K.L.S Prasad</td>
+                    <td>Dr. K.L.S Prasad Hospital</td>
+                    <td>Otolaryngology</td>
+                    <td>+91 99633 57890</td>
+                    <input type="hidden" name="doctor_name" value="Dr. K.L.S Prasad">
+                    <input type="hidden" name="hospital_name" value="Dr. K.L.S Prasad Hospital">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. S. Sandeep V.V.K</td>
+                    <td>Sri Vijaya EYE, ENT Head & Neck Centre</td>
+                    <td>Otolaryngology</td>
+                    <td>+91 99850 50505</td>
+                    <input type="hidden" name="doctor_name" value="Dr. S. Sandeep V.V.K">
+                    <input type="hidden" name="hospital_name" value="Sri Vijaya EYE, ENT Head & Neck Centre">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. K. Naga Mounica</td>
+                    <td>Metla's ENT Care</td>
+                    <td>Otolaryngology</td>
+                    <td>+91 98490 12345</td>
+                    <input type="hidden" name="doctor_name" value="Dr. K. Naga Mounica">
+                    <input type="hidden" name="hospital_name" value="Metla's ENT Care">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. Karthika</td>
+                    <td>Karthika's E.N.T & Kidney Care</td>
+                    <td>Otolaryngology</td>
+                    <td>+91 99490 54321</td>
+                    <input type="hidden" name="doctor_name" value="Dr. Karthika">
+                    <input type="hidden" name="hospital_name" value="Karthika's E.N.T & Kidney Care">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+            <tr>
+                <form action="oppage.php" method="post">
+                    <td> Dr. Guntur ENT</td>
+                    <td>Guntur Ear, Nose, Throat Clinic</td>
+                    <td>Otolaryngology</td>
+                    <td>+91 863 2345678</td>
+                    <input type="hidden" name="doctor_name" value="Dr. Guntur ENT">
+                    <input type="hidden" name="hospital_name" value="Guntur Ear, Nose, Throat Clinic">
+                    <td><input type="submit" value="Book Appointment"></td>
+                </form>
+            </tr>
+        </table>
+        
+               <p><b>Note:</b>Other problems related to neck other than above mentioned can consult to same doctors given in table</p>
+      </div>
+
+      <div id="shoulder" class="contentBlock">
+        <h2>Shoulder Pain</h2>
+        <h2>Causes of Shoulder pain</h2>
+        <ul>
+            <li><b>Rotator cuff injury:</b>The rotator cuff is a group of four tendons that attach the muscles of the upper arm to the shoulder blade. Rotator cuff injuries are the most common cause of shoulder pain. They can be caused by overuse, overuse, or trauma.</li>
+            <li><b>Bursitis:</b>Bursitis is inflammation of a bursa, which is a fluid-filled sac that cushions bones, tendons, and muscles. The most common type of shoulder bursitis is subacromial bursitis, which affects the bursa between the shoulder blade and the rotator cuff.</li>
+            <li><b>Tendinitis:</b>Tendinitis is inflammation of a tendon, which is a cord of tissue that connects muscle to bone. The most common type of shoulder tendinitis is supraspinatus tendinitis, which affects the tendon that attaches the supraspinatus muscle to the shoulder blade.</li>
+            <li><b>Frozen shoulder:</b>Frozen shoulder is a condition that causes stiffness and pain in the shoulder joint. It is caused by inflammation and thickening of the capsule, which is the tissue that surrounds the shoulder joint.</li>
+            <li><b>Arthritis:</b>Arthritis is inflammation of a joint. The two most common types of arthritis that affect the shoulder are osteoarthritis and rheumatoid arthritis.Osteoarthritis is a degenerative joint disease that can cause wear and tear on the cartilage in the shoulder joint. Rheumatoid arthritis is an autoimmune disease that can cause inflammation in the joints, including the shoulder joint.</li>
+        </ul>     
+        <h3>Here are some details of doctor you can consult for your shoulder pain</h3>  
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Doctor Name</th>
+              <th>Hospital Name</th>
+              <th>Type of Doctor</th>
+              <th>Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Ramprasad Kancherla</td>
+                <td>A1OrthoCare Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99898 44444</td>
+                <input type="hidden" name="doctor_name" value="Dr. Ramprasad Kancherla">
+                <input type="hidden" name="hospital_name" value="A1OrthoCare Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Venu Gopala Reddy</td>
+                <td>Sree Sai Suraksha Ortho Clinic</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 98765 43210</td>
+                <input type="hidden" name="doctor_name" value="Dr. Venu Gopala Reddy">
+                <input type="hidden" name="hospital_name" value="Sree Sai Suraksha Ortho Clinic">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Kims Hospital</td>
+                <td>Kims Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. Kims Hospital">
+                <input type="hidden" name="hospital_name" value="Kims Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Sridhar K</td>
+                <td>AND HRA Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Sridhar K">
+                <input type="hidden" name="hospital_name" value="AND HRA Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Srinivasareddy</td>
+                <td>A1OrthoCare Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 98490 12345</td>
+                <input type="hidden" name="doctor_name" value="Dr. Srinivasareddy">
+                <input type="hidden" name="hospital_name" value="A1OrthoCare Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+                 <p><b>Note:</b>Other problems related to shoulder other than above mentioned can consult to same doctors given in table</p>
+      </div>
+    
+      <div id="hand" class="contentBlock">
+        <h2>Hand Pain</h2>
+        <h2>Causes of Hand pain</h2>
+        <ul>
+            <li><b>Overuse:</b>Overuse, also known as repetitive strain injury (RSI), is the most common cause of hand pain. It can be caused by repetitive movements, such as typing, playing a musical instrument, or using tools.</li>
+            <li><b>Carpal tunnel syndrome:</b>Carpal tunnel syndrome is a condition in which the median nerve, which runs through the wrist, is compressed. This can cause pain, numbness, and tingling in the hand and fingers.</li>
+            <li><b>Trigger finger:</b>Trigger finger is a condition in which the tendon that controls a finger or thumb gets stuck in a sheath. This can cause pain and stiffness in the finger or thumb.</li>
+            <li><b>Arthritis:</b>Arthritis can cause pain and inflammation in the joints of the hand. The two most common types of arthritis that affect the hand are osteoarthritis and rheumatoid arthritis.</li>
+            <li><b>Tendonitis and bursitis:</b>Tendonitis and bursitis are inflammation of a tendon or bursa, respectively. Tendons are the cords of tissue that connect muscles to bones, and bursae are fluid-filled sacs that cushion bones, tendons, and muscles. Both tendonitis and bursitis can cause pain in the hand.</li>
+            <li><b>Injuries:</b>Injuries to the hand, such as fractures, sprains, and dislocations, can also cause pain.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your hand pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Srinivas Polisetty</td>
+                <td>Vedanta Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Srinivas Polisetty">
+                <input type="hidden" name="hospital_name" value="Vedanta Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. S. Sandeep V.V.K</td>
+                <td>Sri Vijaya EYE, ENT Head & Neck Centre</td>
+                <td>Hand Surgeon</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. S. Sandeep V.V.K">
+                <input type="hidden" name="hospital_name" value="Sri Vijaya EYE, ENT Head & Neck Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. K. Naga Mounica</td>
+                <td>Metla's Hand Care</td>
+                <td>Hand Surgeon</td>
+                <td>+91 98490 12345</td>
+                <input type="hidden" name="doctor_name" value="Dr. K. Naga Mounica">
+                <input type="hidden" name="hospital_name" value="Metla's Hand Care">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Karthika</td>
+                <td>Karthika's Hand & Ortho Care</td>
+                <td>Hand Surgeon</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Karthika">
+                <input type="hidden" name="hospital_name" value="Karthika's Hand & Ortho Care">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Guntur Hand Care</td>
+                <td>Guntur Hand Surgery Clinic</td>
+                <td>Hand Surgeon</td>
+                <td>+91 863 2345678</td>
+                <input type="hidden" name="doctor_name" value="Dr. Guntur Hand Care">
+                <input type="hidden" name="hospital_name" value="Guntur Hand Surgery Clinic">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+         <p><b>Note:</b>Other problems related to hand other than above mentioned can consult to same doctors given in table</p>
+      </div>
+
+      <div id="chest" class="contentBlock">
+        <h2>Chest Pain</h2>
+        <h2>Causes of chest pain</h2>
+        <ul>
+            <li><b>Heart disease:</b>Heart disease is the most common cause of chest pain. It can be caused by a number of factors, including coronary artery disease, heart attack, and pericarditis.</li>
+            <li><b>Lung problems:</b>Lung problems, such as pneumonia, asthma, and pulmonary embolism, can also cause chest pain.</li>
+            <li><b>Digestive problems:</b>Digestive problems, such as heartburn, esophageal spasms, and gallbladder attacks, can also cause chest pain.</li>
+            <li><b>Musculoskeletal problems:</b>Musculoskeletal problems, such as costochondritis and muscle strains, can also cause chest pain.</li>
+            <li><b>Anxiety and panic attacks:</b>Anxiety and panic attacks can also cause chest pain.</li>
+            <h2>Other causes of chest pain can include:</h2>
+            <li>Shingles</li>
+            <li>Tumors</li>
+            <li>Trauma</li>
+            <li>Certain medications</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your Chest pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. M. Srinivasa Reddy</td>
+                <td>Sri Anjali Multispeciality Hospital</td>
+                <td>Pulmonologist</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. M. Srinivasa Reddy">
+                <input type="hidden" name="hospital_name" value="Sri Anjali Multispeciality Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Pavan Kumar</td>
+                <td>Pavan Chest Hospital</td>
+                <td>Pulmonologist</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Pavan Kumar">
+                <input type="hidden" name="hospital_name" value="Pavan Chest Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. K.L.S Prasad</td>
+                <td>Dr. K.L.S Prasad</td>
+                <td>Chest Specialist</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. K.L.S Prasad">
+                <input type="hidden" name="hospital_name" value="Dr. K.L.S Prasad">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. S. Sandeep V.V.K</td>
+                <td>Sri Vijaya EYE, ENT Head & Neck Centre</td>
+                <td>Pulmonologist</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. S. Sandeep V.V.K">
+                <input type="hidden" name="hospital_name" value="Sri Vijaya EYE, ENT Head & Neck Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. K. Naga Mounica</td>
+                <td>Metla's Chest Clinic</td>
+                <td>Pulmonologist</td>
+                <td>+91 98490 12345</td>
+                <input type="hidden" name="doctor_name" value="Dr. K. Naga Mounica">
+                <input type="hidden" name="hospital_name" value="Metla's Chest Clinic">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+        <p><b>Note:</b>Other problems related to chest other than above mentioned can consult to same doctors given in table</p>
+      </div>
+
+      <div id="abdomen" class="contentBlock">
+        <h2>Abdomen Pain</h2>
+        <h2>Causes of abdomen pain</h2>
+        <ul>
+            <li><b>Gas and indigestion:</b>They can be caused by a variety of factors, such as eating too much, eating too quickly, eating certain foods, and drinking carbonated beverages.</li>
+            <li><b>Constipation:</b>Constipation is a condition in which the bowels do not move regularly enough. This can cause pain, bloating, and difficulty passing stool.</li>
+            <li><b>Diarrhea:</b>Diarrhea is a condition in which the stools are loose and watery. It can be caused by a variety of factors, such as infections, food poisoning, and certain medications.</li>
+            <li><b>Gastroenteritis (stomach flu):</b>Gastroenteritis is an inflammation of the stomach and intestines. It is usually caused by a virus or bacteria and can cause diarrhea, vomiting, and abdominal pain</li>.
+            <li><b>Appendicitis:</b>Appendicitis is an inflammation of the appendix, a small finger-like organ that projects from the colon. It can cause severe abdominal pain, nausea, and vomiting.</li>
+            <li><b>Food poisoning:</b>Food poisoning is a condition caused by eating contaminated food. It can cause a variety of symptoms, including abdominal pain, diarrhea, vomiting, and fever.</li>
+            <li><b>Peptic ulcer disease:</b>Peptic ulcer disease is a condition in which sores develop in the lining of the stomach or duodenum (the first part of the small intestine). It can cause abdominal pain, heartburn, and indigestion.</li>
+            <li><b>Gallbladder disease:</b>Gallbladder disease is a condition in which the gallbladder, a small organ that stores bile, becomes inflamed or infected. It can cause abdominal pain, nausea, and vomiting.</li>
+            <li><b>Irritable bowel syndrome (IBS):</b>IBS is a chronic condition that affects the large intestine. It can cause abdominal pain, cramping, bloating, and changes in bowel habits.</li>
+            <li><b>Pancreatitis:</b>Pancreatitis is an inflammation of the pancreas, an organ that helps to digest food. It can cause severe abdominal pain, nausea, and vomiting.</li>
+            <h2>Other causes of abdominal pain can include:</h2>
+            <li><b>Kidney stones:</b>Kidney stones are hard deposits that form in the kidneys. They can cause severe abdominal pain, back pain, and blood in the urine.</li>
+            <li><b>Menstrual cramps:</b>Menstrual cramps are pain that occurs during menstruation. They are caused by contractions of the uterus.</li>
+            <li><b>Cancer:</b>Cancer of the stomach, colon, pancreas, and other organs can also cause abdominal pain.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your abdomen pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <form action="oppage.php" method="post">
+              <tr>
+                <td> Dr. M. Srinivasa Reddy</td>
+                <td>Sri Anjali Multispeciality Hospital</td>
+                <td>Gastroenterologist</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. M. Srinivasa Reddy">
+                <input type="hidden" name="hospital_name" value="Sri Anjali Multispeciality Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </tr>
+            </form>
+            <form action="oppage.php" method="post">
+              <tr>
+                <td> Dr. Pavan Kumar</td>
+                <td>Pavan Gastroenterology Hospital</td>
+                <td>Gastroenterologist</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Pavan Kumar">
+                <input type="hidden" name="hospital_name" value="Pavan Gastroenterology Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </tr>
+            </form>
+            <form action="oppage.php" method="post">
+              <tr>
+                <td> Dr. K.L.S Prasad</td>
+                <td>Dr. K.L.S Prasad</td>
+                <td>Gastroenterologist</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. K.L.S Prasad">
+                <input type="hidden" name="hospital_name" value="Dr. K.L.S Prasad">
+                <td><input type="submit" value="Book Appointment"></td>
+              </tr>
+            </form>
+            <form action="oppage.php" method="post">
+              <tr>
+                <td> Dr. S. Sandeep V.V.K</td>
+                <td>Sri Vijaya EYE, ENT Head & Neck Centre</td>
+                <td>Gastroenterologist</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. S. Sandeep V.V.K">
+                <input type="hidden" name="hospital_name" value="Sri Vijaya EYE, ENT Head & Neck Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </tr>
+            </form>
+            <form action="oppage.php" method="post">
+              <tr>
+                <td> Dr. K. Naga Mounica</td>
+                <td>Metla's Gastroenterology Clinic</td>
+                <td>Gastroenterologist</td>
+                <td>+91 98490 12345</td>
+                <input type="hidden" name="doctor_name" value="Dr. K. Naga Mounica">
+                <input type="hidden" name="hospital_name" value="Metla's Gastroenterology Clinic">
+                <td><input type="submit" value="Book Appointment"></td>
+              </tr>
+            </form>
+          </tbody>
+        </table>
+        
+          <p><b>Note:</b>Other problems related to abdomen other than above mentioned can consult to same doctors given in table</p>
+      </div>
+
+      <div id="back" class="contentBlock">
+        <h2>Back Pain</h2>
+        <h2>Causes of Back pain</h2>
+        <ul>
+            <li><b>Muscle strain:</b>Muscle strain is the most common cause of back pain. It can be caused by overuse, lifting heavy objects improperly, or sudden twisting or bending of the back.</li>
+            <li><b>Sprains and strains:</b>Sprains and strains can also cause back pain. Sprains are injuries to the ligaments, which are the bands of tissue that connect bones together. Strains are injuries to the muscles or tendons, which are the cords of tissue that attach muscles to bones.</li>
+            <li><b>Degenerative disc disease:</b>Degenerative disc disease is a condition that occurs when the discs in the spine break down over time. This can cause pain, stiffness, and difficulty moving.</li>
+            <li><b>Herniated disc:</b>A herniated disc is a condition that occurs when the soft inner material of a disc pushes out through the tough outer layer. This can put pressure on the nerves in the spine and cause pain, numbness, and tingling in the back, arms, and legs.</li>
+            <li><b>Spinal stenosis:</b>Spinal stenosis is a narrowing of the spaces in the spine that contain the nerves. This can put pressure on the nerves and cause pain, numbness, and tingling in the back, arms, and legs.</li>
+            <li><b>Facet joint pain:</b>The facet joints are the joints that connect the vertebrae in the spine. Facet joint pain can occur when the facet joints become inflamed or damaged. This can cause pain in the back, neck, and shoulders.</li>
+            <li><b>Osteoporosis:</b>Osteoporosis is a condition that causes bones to become weak and brittle. This can make the bones more likely to break, which can lead to back pain.</li>
+            <li><b>Tumors:</b>Tumors can develop in the spine or in the surrounding tissues. Tumors can cause pain, stiffness, and difficulty moving.</li>
+            <li><b>Infections:</b>Infections, such as meningitis and discitis, can also cause back pain.</li>
+            <li><b>Trauma:</b>Back pain can also be caused by trauma, such as a car accident or fall.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your back pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. K.L.S Prasad</td>
+                <td>Dr. K.L.S Prasad</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. K.L.S Prasad">
+                <input type="hidden" name="hospital_name" value="Dr. K.L.S Prasad">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. S. Sandeep V.V.K</td>
+                <td>Sri Vijaya EYE, ENT Head & Neck Centre</td>
+                <td>Spine Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. S. Sandeep V.V.K">
+                <input type="hidden" name="hospital_name" value="Sri Vijaya EYE, ENT Head & Neck Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. K. Naga Mounica</td>
+                <td>Metla's Orthopaedic & Neuro Centre</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 98490 12345</td>
+                <input type="hidden" name="doctor_name" value="Dr. K. Naga Mounica">
+                <input type="hidden" name="hospital_name" value="Metla's Orthopaedic & Neuro Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Karthika</td>
+                <td>Karthika Orthopaedic & Neuro Centre</td>
+                <td>Spine Surgeon</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Karthika">
+                <input type="hidden" name="hospital_name" value="Karthika Orthopaedic & Neuro Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Guntur Orthopaedic</td>
+                <td>Guntur Orthopaedic Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 863 2345678</td>
+                <input type="hidden" name="doctor_name" value="Dr. Guntur Orthopaedic">
+                <input type="hidden" name="hospital_name" value="Guntur Orthopaedic Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Mohan Rao Patibandla</td>
+                <td>Rao's Hospital</td>
+                <td>Neurosurgeon</td>
+                <td>+91 90100 56444</td>
+                <input type="hidden" name="doctor_name" value="Dr. Mohan Rao Patibandla">
+                <input type="hidden" name="hospital_name" value="Rao's Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Narendra</td>
+                <td>Narendra Ortho-Spine center</td>
+                <td>Physiatrist</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. Narendra">
+                <input type="hidden" name="hospital_name" value="Narendra Ortho-Spine center">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+         <p><b>Note:</b>Other problems related to back other than above mentioned can consult to same doctors given in table</p>
+      </div>
+
+      <div id="hip" class="contentBlock">
+        <h2>Hip Pain</h2>
+         <h2>Causes of Hip pain</h2>
+        <ul>
+            <li><b>Osteoarthritis:</b>Osteoarthritis is caused by the breakdown of cartilage in the joints. It can affect any joint in the body, but it is most common in the hips, knees, and spine.</li>
+            <li><b>Bursitis:</b>Bursitis is an inflammation of the bursae, which are small sacs filled with fluid that cushion the bones, tendons, and muscles around the joints. Bursitis can occur in the hips, but it is more common in the shoulders, knees, and elbows.</li>
+            <li><b>Tendonitis:</b>Tendonitis is an inflammation of the tendons, which are the cords of tissue that connect muscles to bones. It can occur in the hips, but it is more common in the shoulders, elbows, and wrists.</li>
+            <li><b>Hip impingement:</b>Hip impingement is a condition in which the bones of the hip joint rub against each other, causing pain and damage to the cartilage.</li>
+            <li><b>Labral tear:</b>The labrum is a ring of cartilage that lines the hip socket. A labral tear is a tear in the labrum, which can cause pain and instability in the hip joint.</li>
+            <li><b>Fractures:</b>Fractures of the hip bones can occur due to trauma, such as a fall or car accident. They are more common in older adults, whose bones are more brittle.</li>
+            <li><b>Infection:</b>Infections of the hip joint, such as septic arthritis, can occur, but they are rare.</li>
+            <h2>Other causes of hip pain can include:</h2>
+            <li>Rheumatoid arthritis</li>
+            <li>Ankylosing spondylitis</li>
+            <li>Psoriatic arthritis</li>
+            <li>Systemic lupus erythematosus</li>
+            <li>Sickle cell disease</li>
+            <li>Legg-Calvé-Perthes disease</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your hip pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Srinivasa Reddy Datla</td>
+                <td>A1 Spine Centre</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Srinivasa Reddy Datla">
+                <input type="hidden" name="hospital_name" value="A1 Spine Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Ramprasad Kancherla</td>
+                <td>A1 Ortho Care</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Ramprasad Kancherla">
+                <input type="hidden" name="hospital_name" value="A1 Ortho Care">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Venu Gopala Reddy</td>
+                <td>Sree Sai Suraksha Ortho Clinic</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 98633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. Venu Gopala Reddy">
+                <input type="hidden" name="hospital_name" value="Sree Sai Suraksha Ortho Clinic">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Kims Hospital</td>
+                <td>Kims Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Kims Hospital">
+                <input type="hidden" name="hospital_name" value="Kims Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Sridhar K</td>
+                <td>AND hra Hospital s</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Sridhar K">
+                <input type="hidden" name="hospital_name" value="AND hra Hospital s">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+        
+      <p><b>Note:</b>Other problems related to hip other than above mentioned can consult to same doctors given in table</p>        
+      </div>
+
+      <div id="feet" class="contentBlock">
+        <h2>Feet Pain</h2>
+        <h2>Causes of Feet pain</h2>
+        <ul>
+            <li><b>Plantar fasciitis:</b>Plantar fasciitis is inflammation of the plantar fascia, a thick band of tissue that runs along the bottom of the foot from the heel to the toes. It is the most common cause of heel pain.</li>
+            <li><b>Metatarsalgia:</b>Metatarsalgia is pain in the ball of the foot. It can be caused by overuse, ill-fitting shoes, or a high arch.</li>
+            <li><b>Sesamoiditis:</b>Sesamoiditis is inflammation of the sesamoid bones, two small bones located under the ball of the foot. It is often caused by overuse or trauma.</li>
+            <li><b>Bunions:</li>Bunions are bony bumps that form at the base of the big toe. They are caused by a misalignment of the bones in the joint.</li>
+            <li><b>Hammertoes:</b>Hammertoes are toes that bend abnormally. They can be caused by genetics, ill-fitting shoes, or arthritis.</li>
+            <li><b>Neuromas:</b>Neuromas are nerve tumors that can develop in the feet. They can cause pain, numbness, and tingling.
+Tarsal tunnel syndrome: Tarsal tunnel syndrome is a condition in which the nerves in the tarsal tunnel, a narrow passageway in the ankle, are compressed. It can cause pain, numbness, and tingling in the foot.</li>
+            <li><b>Arthritis:</b>Arthritis can cause pain and inflammation in any joint in the body, including the joints in the feet.</li>
+            <li><b>Diabetes:</b>Diabetes can damage the nerves and blood vessels in the feet, leading to pain, numbness, and tingling.</li>
+            <li><b>Injuries:</b>Injuries to the feet, such as fractures, sprains, and strains, can also cause pain.</li>
+            <h2>Other causes of foot pain can include:</h2>
+            <li><b>Overuse:</b>veruse of the feet, such as from standing or walking for long periods of time, can cause pain.<li>
+            <li><b>Ill-fitting shoes:</b>Ill-fitting shoes can put pressure on the feet and cause pain.</li>
+            <li><b>High heels:</b>High heels can put extra stress on the balls of the feet and cause pain.</li>
+            <li><b>Cold weather:</b>Cold weather can cause the blood vessels in the feet to constrict, which can lead to pain.</li>
+            <li><b>Certain medications:</b>Certain medications, such as diuretics and corticosteroids, can cause side effects such as foot pain.</li>
+        </ul>
+        <h3>Here are some details of doctor you can consult for your feet pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Srinivasa Reddy Datla</td>
+                <td>A1 Spine Centre</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Srinivasa Reddy Datla">
+                <input type="hidden" name="hospital_name" value="A1 Spine Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Ramprasad Kancherla</td>
+                <td>A1 Ortho Care</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Ramprasad Kancherla">
+                <input type="hidden" name="hospital_name" value="A1 Ortho Care">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Venu Gopala Reddy</td>
+                <td>Sree Sai Suraksha Ortho Clinic</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 98633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. Venu Gopala Reddy">
+                <input type="hidden" name="hospital_name" value="Sree Sai Suraksha Ortho Clinic">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Kims Hospital</td>
+                <td>Kims Hospital</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Kims Hospital">
+                <input type="hidden" name="hospital_name" value="Kims Hospital">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Sridhar K</td>
+                <td>AND hra Hospital s</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99490 54321</td>
+                <input type="hidden" name="doctor_name" value="Dr. Sridhar K">
+                <input type="hidden" name="hospital_name" value="AND hra Hospital s">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+        <p><b>Note:</b>Other problems related to feet other than above mentioned can consult to same doctors given in table</p>      
+      </div>
+
+      <div id="leg" class="contentBlock">
+        <h2>Leg Pain</h2>
+         <h2>Causes of Feet pain</h2>
+        <ul>
+            <li><b>Muscle strain:</b>Muscle strain is the most common cause of leg pain. It can be caused by overuse of the leg muscles, such as from running, jumping, or lifting heavy objects.</li>
+            <li><b>Tendonitis:</b>Tendonitis is an inflammation of a tendon, which is a cord of tissue that connects muscle to bone. Tendonitis can occur in any tendon in the body, but it is most common in the Achilles tendon (in the back of the heel) and the patellar tendon (in the front of the knee).</li>
+            <li><b>Bursitis:</b>Bursitis is an inflammation of a bursa, which is a small sac filled with fluid that cushions the bones, tendons, and muscles around the joints. Bursitis can occur in any bursa in the body, but it is most common in the knee, shoulder, and elbow.</li>
+            <li><b>Arthritis:</b>Arthritis is a condition that causes inflammation and pain in the joints. There are many different types of arthritis, but the most common types that affect the legs are osteoarthritis and rheumatoid arthritis.</li>
+            <li><b>Nerve compression:</b>Nerve compression can occur when a nerve is squeezed or irritated. This can cause pain, numbness, and tingling in the leg.</li>
+            <li><b>Circulatory problems:</b>Circulatory problems, such as peripheral artery disease and blood clots, can also cause leg pain.</li>
+            <li><b>Injuries:</b>Injuries, such as fractures, sprains, and strains, can also cause leg pain.</li>
+            <h2>Other causes of leg pain can include:</h2>
+            <li>Diabetes</li>
+            <li>Sciatica</li>
+            <li>Fibromyalgia</li>
+            <li>Endometriosis</li>
+            <li>Tumors</li>
+        <h3>Here are some details of doctor you can consult for your leg pain</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th scope="col">Doctor Name</th>
+              <th scope="col">Hospital Name</th>
+              <th scope="col">Type of Doctor</th>
+              <th scope="col">Hospital Phone Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. A1 Spine Centre</td>
+                <td>A1 Spine Centre</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 98490 12345</td>
+                <input type="hidden" name="doctor_name" value="Dr. A1 Spine Centre">
+                <input type="hidden" name="hospital_name" value="A1 Spine Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Narendra</td>
+                <td>Narendra ortho-spine center</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99633 57890</td>
+                <input type="hidden" name="doctor_name" value="Dr. Narendra">
+                <input type="hidden" name="hospital_name" value="Narendra ortho-spine center">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Naresh Babu</td>
+                <td>Mallika Spine Centre</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 99850 50505</td>
+                <input type="hidden" name="doctor_name" value="Dr. Naresh Babu">
+                <input type="hidden" name="hospital_name" value="Mallika Spine Centre">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Rao - Dr Mohana Rao Patibandla</td>
+                <td>Dr Rao's Hospitals</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 90100 56444</td>
+                <input type="hidden" name="doctor_name" value="Dr. Rao - Dr Mohana Rao Patibandla">
+                <input type="hidden" name="hospital_name" value="Dr Rao's Hospitals">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+            <tr>
+              <form action="oppage.php" method="post">
+                <td> Dr. Lakshman Neuro Surgeon</td>
+                <td>Suraksha Hospitals</td>
+                <td>Orthopedic Surgeon</td>
+                <td>+91 94900 56155</td>
+                <input type="hidden" name="doctor_name" value="Dr. Lakshman Neuro Surgeon">
+                <input type="hidden" name="hospital_name" value="Suraksha Hospitals">
+                <td><input type="submit" value="Book Appointment"></td>
+              </form>
+            </tr>
+          </tbody>
+        </table>
+        
+         <p><b>Note:</b>Other problems related to leg other than above mentioned can consult to same doctors given in table</p> 
+      </div>
+
+ </div>
+
+  <script>
+    document.getElementById("options").addEventListener("change", function() {
+      var selectedOption = this.value;
+      var contentBlocks = document.getElementsByClassName("contentBlock");
+      for (var i = 0; i < contentBlocks.length; i++) {
+        contentBlocks[i].style.display = "none";
+      }
+      document.getElementById(selectedOption).style.display = "block";
+    });
+  </script>
+</body>
+</html>
